@@ -1,0 +1,13 @@
+prefix=/Users/muazsazelim/repos/talentlabs-ml/.conda
+exec_prefix=/Users/muazsazelim/repos/talentlabs-ml/.conda
+libdir=/Users/muazsazelim/repos/talentlabs-ml/.conda/lib
+sharedlibdir=/Users/muazsazelim/repos/talentlabs-ml/.conda/lib
+includedir=/Users/muazsazelim/repos/talentlabs-ml/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
